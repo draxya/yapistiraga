@@ -1,5 +1,9 @@
 body {
-	background: #002B36;
+	background: #000000;
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 	padding: 20px 50px;
 	margin: 0px;
 }
@@ -39,13 +43,19 @@ textarea {
 /* code box when locked */
 
 #box {
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
+	background: transparent;
 	border: 0px;
+	color: #fff;
+	padding: 0px;
+	width: 100%;
+	font-family: monospace;
 	outline: none;
+	resize: none;
 	font-size: 13px;
-  overflow: inherit;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin: 0px;
+  	overflow: inherit;
 }
 
 #box code {
@@ -65,11 +75,11 @@ textarea {
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+	background: transparent;
 }
 
 #box2 {
-	background: #08323c;
+	background: transparent;
 	font-size: 0px;
 	padding: 0px 5px;
 }
@@ -115,7 +125,7 @@ textarea {
 }
 
 #box3, #messages li {
-	background: #173e48;
+	background: transparent;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
