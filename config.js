@@ -33,7 +33,7 @@
   },
 
   "storage": {
-    "type": "mongo"
+    "type": "file"
   },
 
   "documents": {
