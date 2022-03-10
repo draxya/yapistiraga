@@ -4,6 +4,8 @@
 
 Bu site hastebin çakmasıdır. Draxya tarafından [bu](https://github.com/toptal/haste-server) repodan cukkalanmış ve geliştirme yapılmıştır. Tamamen eğlence amaçlıdır, herhangi bir telif/sahiplik niyeti gütmez.
 
+`Not: Database olarak mongodb kullanacaksanız kod içerisindeki mongodb handler'ı mongodb@2.2.36 sürümü ve altında çalışmaktadır. Ben uğraşmadım ama kendiniz güncel sürüme uyarlayıp kullanabilirsiniz.`
+
 
 ## Settings
 
