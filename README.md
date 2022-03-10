@@ -248,33 +248,7 @@ your bucket:
 }
 ```
 
-## Docker
-
-### Build image
-
-```bash
-docker build --tag haste-server .
-```
-
-### Run container
-
-For this example we will run haste-server, and connect it to a redis server
-
-```bash
-docker run --name haste-server-container --env STORAGE_TYPE=redis --env STORAGE_HOST=redis-server --env STORAGE_PORT=6379 haste-server
-```
-
-### Use docker-compose example
-
-There is an example `docker-compose.yml` which runs haste-server together with memcached
-
-```bash
-docker-compose up
-```
-
 ### Configuration
-
-The docker image is configured using environmental variables as you can see in the example above.
 
 Here is a list of all the environment variables
 
