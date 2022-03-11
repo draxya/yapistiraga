@@ -262,7 +262,7 @@ haste.prototype.configureButtons = function() {
   this.buttons = [
     {
       $where: $('#box2 .save'),
-      label: 'Save',
+      label: 'Kaydet',
       shortcutDescription: 'control + s',
       shortcut: function(evt) {
         return evt.ctrlKey && (evt.keyCode === 83);
@@ -275,7 +275,7 @@ haste.prototype.configureButtons = function() {
     },
     {
       $where: $('#box2 .new'),
-      label: 'New',
+      label: 'Yeni',
       shortcut: function(evt) {
         return evt.ctrlKey && evt.keyCode === 78;
       },
@@ -286,7 +286,7 @@ haste.prototype.configureButtons = function() {
     },
     {
       $where: $('#box2 .duplicate'),
-      label: 'Duplicate & Edit',
+      label: 'Kaydet & Düzenle',
       shortcut: function(evt) {
         return _this.doc.locked && evt.ctrlKey && evt.keyCode === 68;
       },
@@ -297,7 +297,7 @@ haste.prototype.configureButtons = function() {
     },
     {
       $where: $('#box2 .raw'),
-      label: 'Just Text',
+      label: 'Sadece Metin',
       shortcut: function(evt) {
         return evt.ctrlKey && evt.shiftKey && evt.keyCode === 82;
       },
